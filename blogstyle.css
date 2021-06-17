@@ -1,0 +1,62 @@
+.blog-container, .blog-container1{
+    margin-bottom: 10px;
+    display: flex;
+    height: 400px;
+}
+    
+.blogpost { 
+    width: 300px; border: 1px solid black; 
+ }
+ .blog-container1 .post1, .blog-container1 .post5{
+     align-self: flex-end;
+ }
+ .blog-container1 .post2, .blog-container1 .post4{
+    align-self: center;
+}
+.blog-container1 .post3{
+    align-self: flex-start;
+}
+
+
+.blok{
+    padding: 100px;
+
+}
+.color1{ 
+    background-color: tomato;
+}
+.color2{ 
+    background-color: rgb(71, 123, 255);
+}
+.color3{ 
+    background-color: rgb(71, 255, 114);
+}
+.color4{ 
+    background-color: rgb(235, 219, 36);
+}
+.color5{ 
+    background-color: rgb(241, 27, 209);
+}
+
+
+.container2{
+    display: flex;
+}
+.container2 .color1{
+    flex-grow: 3;
+}
+.container2 .color3{
+    flex-grow: 5;
+}
+.container2 .color5{
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
